@@ -3,23 +3,16 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>腦婆之爭</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>
+    <title>Unity WebGL Player | Fuck you Fai Jai</title>
     <script src="Build/UnityLoader.js"></script>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/waifu.json", {onProgress: UnityProgress});
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/web.json");
     </script>
   </head>
   <body>
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: 1660px; height: 900px margin: 1px 1px 1px 1px" bgcolor="#000000"></div>
-      
-        <div class=""></div>
-        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">腦婆之爭</div>
-      </div>
-    </div>
-  </body>
+    <div id="gameContainer" style="width: 100%; height: 800px; margin: 1px 1px 98% 1px"></div>
+    
+    
+
+    </body>
 </html>
